@@ -1,0 +1,16 @@
+body{
+    background-color: lightblue;
+    font-size: 25px;
+}
+.items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+  }
+  .item {
+  border: 5px solid red;  
+
+}
+   

@@ -1,0 +1,82 @@
+body {
+  font-size: 15pt;
+  background-color: yellow;
+}
+
+/*button{
+  width: 15px;
+  height: 50px;
+  cursor: pointer;
+  margin: 5px;
+  background: none ;
+  border: none;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+.cart{
+  background:green;
+  border-radius: 10px;
+  font-weight: bolder;
+  border: 2px solid black;
+}
+.cart1{
+  position: absolute;
+  margin-left:10px;
+  column-fill:transparent;
+  transition:400ms;
+  color: transparent;
+}
+.cart span{
+  transition: 400ms;
+  
+}
+ .cart:hover span{
+  margin-right: 30px
+}
+.cart:hover-1{
+  margin-left:45px;
+  column-fill:white;
+  color:black;
+}
+.button:focus {
+  outline
+}*/
+/*food menu style */
+.items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 30px 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+}
+.items img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0, 2s ease;
+}
+.item img hover {
+  transform: scale(1.04);
+}
+.item h4 {
+  padding: 5px;
+  text-align: center;
+}
+.item button {
+  padding: 5px 30px;
+  border: none;
+  outline: none;
+  background-color: rgb(16, 167, 16);
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+
+  display: block;
+  margin: 0 auto;
+}
+.item button hover {
+  transform: scale(1.08);
+}
